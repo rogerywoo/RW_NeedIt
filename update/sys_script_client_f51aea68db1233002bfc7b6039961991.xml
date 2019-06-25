@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>NeedIt Request Type Options</name>
+        <name>RWNeedIt Request Type Options</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 		if ( newValue == '') {
@@ -56,15 +56,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f51aea68db1233002bfc7b6039961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>NeedIt Request Type Options</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RWNeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
         <sys_policy/>
         <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
         <sys_update_name>sys_script_client_f51aea68db1233002bfc7b6039961991</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-24 12:50:14</sys_updated_on>
+        <sys_updated_on>2019-06-24 14:50:25</sys_updated_on>
         <table>x_349201_rw_needit_rw_needit</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_requested_for</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>RWNeedIt Populate Email Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	// Modified the if to return if the newValue == oldValue to avoid
+	// unecessary trips to the server
+	if (isLoading || newValue === '' || newValue == oldValue) {
+		return;
+	}
+	
+	try{		
+
+		// Instantiate the GetEmailAddress Script Include 
+		var getEmailAddr = new GlideAjax('GetEmailAddress');
+		// Specify the getEmail method
+		getEmailAddr.addParam('sysparm_name','getEmail');
+		// Pass the Requested for sys_id
+		getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+		// Send the request to the server
+		getEmailAddr.getXML(populateEmailField);
+	}
+	catch (err){
+		alert ('error');
+		g_form.showFieldMsg("u_requested_for", 'Problem', "error");
+		throw err;
+		// gs.addInfoMessaage(err);
+	}
+
+
+	// When the response is back from the server
+	function populateEmailField(response, error){
+		try{			
+			if (error){
+				alert (error);
+				return;
+			}
+			// Extract the email address from the response, clear any value from the email field, 
+			// set new value in the email field
+			var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+			g_form.clearValue('u_requested_for_email');
+			g_form.setValue('u_requested_for_email',emailFromScriptInclude);
+		} catch (err)
+			{
+				alert ('Problem');
+			}
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-24 17:31:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66192724dbd233002bfc7b603996190c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>RWNeedIt Populate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_script_client_66192724dbd233002bfc7b603996190c</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-24 18:13:26</sys_updated_on>
+        <table>x_349201_rw_needit_rw_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

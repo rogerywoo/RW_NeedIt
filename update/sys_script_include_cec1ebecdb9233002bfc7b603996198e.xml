@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_349201_rw_needit.validateEmailAddress</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>validateEmailAddress</name>
+        <script><![CDATA[function validateEmailAddress(emailStr){
+	// Use JavaScript coercion to guarantee emailStr is a string
+	emailStr = emailStr + '';
+	// Compare emailStr against the allowed syntax as specified in the regular expression
+	// If emailStr has allowed syntax, return true, else return false
+	if(emailStr.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+		return true;
+	}
+	else {
+		return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-24 16:53:23</sys_created_on>
+        <sys_id>cec1ebecdb9233002bfc7b603996198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_script_include_cec1ebecdb9233002bfc7b603996198e</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-24 16:53:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
