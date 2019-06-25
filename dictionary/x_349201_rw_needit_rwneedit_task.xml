@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="RWNeedIt Task" max_length="40" name="x_349201_rw_needit_rwneedit_task" type="collection"/>
+</database>
