@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3c89d215db1233002bfc7b60399619a7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>fc602189db1633002bfc7b6039961997</answer>
+        <condition table="var__m_sys_decision_input_66b06989db1633002bfc7b6039961956">u_what_needed=facilities1^EQ<item endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="facilities1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">66b06989db1633002bfc7b6039961956</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_66b06989db1633002bfc7b6039961956</input_table>
+        <label>Facilities 1</label>
+        <order>200</order>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-26 19:48:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c89d215db1233002bfc7b60399619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-26 19:48:55</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-26 19:48:55</sys_created_on>
+        <sys_id>cd7d1215db1233002bfc7b6039961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_metadata_link_cd7d1215db1233002bfc7b6039961981</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-26 19:48:55</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

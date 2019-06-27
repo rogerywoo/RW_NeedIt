@@ -140,6 +140,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rwneedit</element>
+            <position>10</position>
+            <sys_created_by>roger.woo</sys_created_by>
+            <sys_created_on>2019-06-27 13:37:24</sys_created_on>
+            <sys_id>f0029a69db5a33002bfc7b60399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_349201_rw_needit_rwneedit_task" sys_domain="global" view="Default view">9346a441db9233002bfc7b6039961927</sys_ui_section>
+            <sys_updated_by>roger.woo</sys_updated_by>
+            <sys_updated_on>2019-06-27 13:37:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

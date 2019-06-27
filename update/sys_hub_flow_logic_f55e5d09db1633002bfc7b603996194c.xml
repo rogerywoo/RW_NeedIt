@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b15e5d09db1633002bfc7b603996194b</block>
+        <comment/>
+        <connected_to>43ef8360-2f13-4308-afb2-8c0e326bd77e</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">5d5a5945db1633002bfc7b6039961907</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-25 20:34:41</sys_created_on>
+        <sys_id>f55e5d09db1633002bfc7b603996194c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_f55e5d09db1633002bfc7b603996194c</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 15:01:15</sys_updated_on>
+        <ui_id>1a46a7b9-bee5-4481-9af5-0556b2eca790</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f55e5d09db1633002bfc7b603996194c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f55e5d09db1633002bfc7b603996194c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-25 20:34:41</sys_created_on>
+        <sys_id>395e5d09db1633002bfc7b6039961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-25 20:34:41</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f55e5d09db1633002bfc7b603996194c</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-25 20:34:41</sys_created_on>
+        <sys_id>755e5d09db1633002bfc7b6039961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-25 20:34:41</sys_updated_on>
+        <value>{{94c8e22f-6ac1-45ba-b997-8b6ef0cec9bc.record.state}}=100</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+</record_update>

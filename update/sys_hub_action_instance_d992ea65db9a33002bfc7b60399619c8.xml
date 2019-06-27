@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">5d5a5945db1633002bfc7b6039961907</flow>
+        <order>3.2.2.1</order>
+        <parent_ui_id>2e1c10ff-b555-4e65-a708-6ea6461c4653</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-27 14:49:48</sys_created_on>
+        <sys_id>d992ea65db9a33002bfc7b60399619c8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d992ea65db9a33002bfc7b60399619c8</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 15:01:14</sys_updated_on>
+        <ui_id>3144aa57-7b11-489f-82b4-431ebe3844af</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d992ea65db9a33002bfc7b60399619c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d992ea65db9a33002bfc7b60399619c8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-27 14:49:48</sys_created_on>
+        <sys_id>1192ea65db9a33002bfc7b60399619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:49:48</sys_updated_on>
+        <value>x_349201_rw_needit_rwneedit_task</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d992ea65db9a33002bfc7b60399619c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d992ea65db9a33002bfc7b60399619c8</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-27 14:49:48</sys_created_on>
+        <sys_id>d992ea65db9a33002bfc7b60399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:49:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{281c3efe-96f3-4ac2-b716-f27abc831cae.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d992ea65db9a33002bfc7b60399619c8</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-27 14:49:48</sys_created_on>
+        <sys_id>1992ea65db9a33002bfc7b60399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:49:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d992ea65db9a33002bfc7b60399619c8</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-27 14:49:48</sys_created_on>
+        <sys_id>9d92ea65db9a33002bfc7b60399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:49:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>assigned_to={{2169f5bb-9692-4fde-834a-ae57efef5533.answer.assignee}}</value>
+    </sys_element_mapping>
+</record_update>
