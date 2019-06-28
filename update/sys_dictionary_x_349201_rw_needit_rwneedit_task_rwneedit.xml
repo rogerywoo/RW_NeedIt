@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
         <sys_created_on>2019-06-27 13:37:24</sys_created_on>
-        <sys_id>346f57b5db5233002bfc7b603996196e</sys_id>
+        <sys_id>3011d669db5a33002bfc7b6039961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RWNeedIt</sys_name>
         <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>

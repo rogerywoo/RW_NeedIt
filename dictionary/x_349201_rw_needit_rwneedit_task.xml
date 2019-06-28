@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="RWNeedIt Task" max_length="40" name="x_349201_rw_needit_rwneedit_task" sizeclass="1" type="collection">
-        <element label="RWNeedIt" max_length="32" name="rwneedit" reference="x_349201_rw_needit_rw_needit" type="reference"/>
+    <element extends="task" label="RWNeedIt Task" max_length="40" name="x_349201_rw_needit_rwneedit_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="RWNeedIt" max_length="32" name="rwneedit" reference="x_349201_rw_needit_rw_needit" type="reference"/>
     </element>
 </database>
