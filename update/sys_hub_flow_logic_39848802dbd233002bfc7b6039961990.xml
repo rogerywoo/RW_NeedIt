@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3d848802dbd233002bfc7b603996198e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">5d5a5945db1633002bfc7b6039961907</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>3.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>160574fd-a0a4-497f-b724-b61206db068a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-28 16:36:12</sys_created_on>
+        <sys_id>39848802dbd233002bfc7b6039961990</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_39848802dbd233002bfc7b6039961990</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-28 18:27:49</sys_updated_on>
+        <ui_id>2e91acab-42b9-43ca-b57f-151da660baa8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=39848802dbd233002bfc7b6039961990"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>39848802dbd233002bfc7b6039961990</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-28 16:36:12</sys_created_on>
+        <sys_id>f5848802dbd233002bfc7b6039961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-28 16:36:12</sys_updated_on>
+        <value>ff302339db5233002bfc7b60399619de</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+</record_update>
