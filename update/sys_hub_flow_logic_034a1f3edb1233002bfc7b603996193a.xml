@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">4284c802dbd233002bfc7b603996190f</block>
+        <block display_value="">ac3a1b3edb1233002bfc7b603996191b</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -9,39 +9,39 @@
         <flow display_value="NeedIt Fulfillment">0a57d44edbd233002bfc7b60399619e1</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>3.2.6</order>
+        <order>3.2.4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>160574fd-a0a4-497f-b724-b61206db068a</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
-        <sys_created_on>2019-06-28 17:58:25</sys_created_on>
-        <sys_id>da57184edbd233002bfc7b6039961931</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-07-01 16:05:37</sys_created_on>
+        <sys_id>034a1f3edb1233002bfc7b603996193a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
         <sys_policy/>
         <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
-        <sys_update_name>sys_hub_flow_logic_da57184edbd233002bfc7b6039961931</sys_update_name>
+        <sys_update_name>sys_hub_flow_logic_034a1f3edb1233002bfc7b603996193a</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-28 17:58:25</sys_updated_on>
-        <ui_id>8f75cbb8-c472-4e49-9154-91128062bdd5</ui_id>
+        <sys_updated_on>2019-07-01 16:05:39</sys_updated_on>
+        <ui_id>87c022d9-5ea2-46a7-82fa-54444944ee23</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=da57184edbd233002bfc7b6039961931"/>
+    <sys_variable_value action="delete_multiple" query="document_key=034a1f3edb1233002bfc7b603996193a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>da57184edbd233002bfc7b6039961931</document_key>
+        <document_key>034a1f3edb1233002bfc7b603996193a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
-        <sys_created_on>2019-06-28 17:58:25</sys_created_on>
-        <sys_id>5257184edbd233002bfc7b6039961935</sys_id>
+        <sys_created_on>2019-07-01 16:05:37</sys_created_on>
+        <sys_id>874a1f3edb1233002bfc7b603996193d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-28 17:58:25</sys_updated_on>
-        <value>0c306771db5233002bfc7b6039961912</value>
+        <sys_updated_on>2019-07-01 16:05:37</sys_updated_on>
+        <value>c5c4933adb1233002bfc7b60399619ae</value>
         <variable display_value="">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
 </record_update>
