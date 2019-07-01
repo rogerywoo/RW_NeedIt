@@ -5,6 +5,7 @@
         <connected_to/>
         <decision_table display_value="Assignee Category Decision">66b06989db1633002bfc7b6039961956</decision_table>
         <decision_table_inputs/>
+        <decision_table_inputs/>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">5d5a5945db1633002bfc7b6039961907</flow>
         <inputs/>
@@ -72,4 +73,41 @@
         <value>Branch for Assignee Categories</value>
         <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e84c802dbd233002bfc7b6039961916"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_priority</field>
+        <id>8e84c802dbd233002bfc7b6039961916</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-28 16:36:13</sys_created_on>
+        <sys_id>c284c802dbd233002bfc7b6039961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-28 16:36:13</sys_updated_on>
+        <table>var__m_sys_decision_input_66b06989db1633002bfc7b6039961956</table>
+        <value>{{94c8e22f-6ac1-45ba-b997-8b6ef0cec9bc.record.priority}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_request_type</field>
+        <id>8e84c802dbd233002bfc7b6039961916</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-28 16:36:13</sys_created_on>
+        <sys_id>4a84c802dbd233002bfc7b6039961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-28 16:36:13</sys_updated_on>
+        <table>var__m_sys_decision_input_66b06989db1633002bfc7b6039961956</table>
+        <value>{{94c8e22f-6ac1-45ba-b997-8b6ef0cec9bc.record.u_request_type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_what_needed</field>
+        <id>8e84c802dbd233002bfc7b6039961916</id>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-28 16:36:13</sys_created_on>
+        <sys_id>8684c802dbd233002bfc7b6039961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-28 16:36:13</sys_updated_on>
+        <table>var__m_sys_decision_input_66b06989db1633002bfc7b6039961956</table>
+        <value>{{94c8e22f-6ac1-45ba-b997-8b6ef0cec9bc.record.u_what_needed}}</value>
+    </sys_element_mapping>
 </record_update>

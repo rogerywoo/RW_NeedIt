@@ -5,7 +5,7 @@
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer>ff302339db5233002bfc7b60399619de</answer>
+        <answer>acd49ff6db1233002bfc7b6039961988</answer>
         <condition table="var__m_sys_decision_input_66b06989db1633002bfc7b6039961956">u_request_type=hr^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="hr"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
@@ -19,10 +19,10 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aafa6331db9233002bfc7b6039961994</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-28 14:45:40</sys_updated_on>
+        <sys_updated_on>2019-07-01 15:57:26</sys_updated_on>
     </sys_decision_question>
 </record_update>
 ]]></payload>
@@ -30,14 +30,14 @@
         <sys_created_by>roger.woo</sys_created_by>
         <sys_created_on>2019-06-28 14:45:10</sys_created_on>
         <sys_id>631ba371db9233002bfc7b60399619e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Human Resources</sys_name>
         <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
         <sys_policy/>
         <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
         <sys_update_name>sys_metadata_link_631ba371db9233002bfc7b60399619e2</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-28 14:45:40</sys_updated_on>
+        <sys_updated_on>2019-07-01 15:57:27</sys_updated_on>
         <tablename>sys_decision_question</tablename>
     </sys_metadata_link>
 </record_update>

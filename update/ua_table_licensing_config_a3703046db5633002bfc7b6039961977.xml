@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_349201_rw_needit_assignee_category</name>
+        <name>x_349201_rw_needit_rwneedit_task</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
-        <sys_created_on>2019-06-25 20:39:32</sys_created_on>
-        <sys_id>435c6c02db5633002bfc7b603996194a</sys_id>
+        <sys_created_on>2019-06-25 16:27:06</sys_created_on>
+        <sys_id>a3703046db5633002bfc7b6039961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_349201_rw_needit_assignee_category</sys_name>
+        <sys_name>x_349201_rw_needit_rwneedit_task</sys_name>
         <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
         <sys_policy/>
         <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
-        <sys_update_name>ua_table_licensing_config_435c6c02db5633002bfc7b603996194a</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a3703046db5633002bfc7b6039961977</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-25 20:39:32</sys_updated_on>
+        <sys_updated_on>2019-06-25 16:27:06</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
