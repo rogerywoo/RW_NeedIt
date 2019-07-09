@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>rwneedit_create</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>RWNeedIt Create</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if (input.keywords != null && input.keywords != '')
+		data.items = getRWNeedItItems(input.keywords);
+	
+	function getRWNeedItItems(keywords) {
+		var sc = new GlideRecord('x_349201_rw_needit_rw_needit');
+		sc.addActiveQuery();
+//		sc.addQuery('123TEXTQUERY321', keywords);
+//		sc.addQuery('sys_class_name', 'NOT IN', 'sc_cat_item_wizard,sc_cat_item_content');
+//		sc.addQuery('sc_catalogs', '0d08b13c3330100c8b837659bba8fb4');
+		sc.setLimit(100);
+//		sc.orderByDesc("ir_query_score");
+		sc.query();
+		var results = [];
+		while (sc.next()) {
+			if (!$sp.canReadRecord(sc))
+				continue;
+
+			var item = {};
+			$sp.getRecordDisplayValues(item, sc, 'number,	u_request_type,u_what_needed');
+			item.rwneedit = sc.getValue('number');
+			results.push(item);
+		}
+		return results;
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-07-02 17:35:01</sys_created_on>
+        <sys_id>b708341fdb9e33002bfc7b60399619b9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>RWNeedIt Create</sys_name>
+        <sys_package display_value="RW NeedIt" source="x_349201_rw_needit">3bc86cb3db8633002bfc7b6039961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RW NeedIt">3bc86cb3db8633002bfc7b6039961956</sys_scope>
+        <sys_update_name>sp_widget_b708341fdb9e33002bfc7b60399619b9</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-07-02 19:31:35</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-primary">
+ <div class="panel-heading">Create RWNeedIt Request</div>
+ <div class="panel-body">
+  <input class="form-control" type="search" placeholder="Start typing here to search the list of catalog items" ng-model="c.data.keywords" ng-change="c.server.update()" ng-model-options="{debounce: 250}" />
+   <ul class="list-group result-container">
+     <li class="list-group-item" ng-repeat="item in c.data.items">
+       <a href>{{item.number}}</a><span class="pull-right">{{item.u_request_type}}</span>
+     </li>
+   </ul>
+
+ </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
